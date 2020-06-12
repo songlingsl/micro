@@ -1,0 +1,23 @@
+server:
+  port: 7000
+
+spring:
+  thymeleaf:
+    cache: false
+  application:
+    name: uaa
+
+alibaba:
+  cloud:
+    nacos:
+      config:
+        contextPath: /nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        username: nacos
+      discovery:
+        password: nacos
+        server-addr: localhost:8848
+        username: nacos
+
+

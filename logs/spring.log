@@ -1,0 +1,243 @@
+2020/06/06-09:35:08 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:35:08 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:35:08 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:35:08 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:35:08 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-rbac.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rbac,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:35:08 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.rbac.RbacApplication
+2020/06/06-09:35:08 [restartedMain] INFO - BeanFactory id=5c8dbf4b-5dd9-3c25-b10a-02dae2c2a560 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:35:09 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:35:09 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:35:09 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:35:09 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:35:09 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:35:09 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:35:09 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:35:09 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:35:09 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:35:09 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:35:09 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:35:09 [restartedMain] INFO - Started RbacApplication in 2.279 seconds (JVM running for 2.924) -com.songling.rbac.RbacApplication
+2020/06/06-09:35:09 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:35:09 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:35:09 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:35:09 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:35:09 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:35:39 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:36:08 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:38:44 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:38:44 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:38:44 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:38:44 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:38:44 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-rbac.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rbac,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:38:44 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.rbac.RbacApplication
+2020/06/06-09:38:45 [restartedMain] INFO - BeanFactory id=5c8dbf4b-5dd9-3c25-b10a-02dae2c2a560 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:38:45 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:38:45 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:38:45 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:38:45 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:38:45 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:38:45 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:38:45 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:38:45 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:38:45 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:38:45 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:38:45 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:38:46 [restartedMain] INFO - Started RbacApplication in 2.387 seconds (JVM running for 3.007) -com.songling.rbac.RbacApplication
+2020/06/06-09:38:46 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:38:46 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:38:46 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:38:46 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:38:46 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:15 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:26 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:39:26 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:39:26 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[app] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:39:26 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[app.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:39:26 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-app.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:39:26 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.app.AppApplication
+2020/06/06-09:39:27 [restartedMain] INFO - BeanFactory id=b4ded746-d53a-3240-ba3d-b50f2d1af2b5 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:39:27 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:39:27 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:39:27 [restartedMain] INFO - Tomcat initialized with port(s): 9000 (http) -org.springframework.boot.web.embedded.tomcat.TomcatWebServer
+2020/06/06-09:39:27 [restartedMain] INFO - Starting service [Tomcat] -org.apache.catalina.core.StandardService
+2020/06/06-09:39:27 [restartedMain] INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] -org.apache.catalina.core.StandardEngine
+2020/06/06-09:39:27 [restartedMain] INFO - Initializing Spring embedded WebApplicationContext -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]
+2020/06/06-09:39:27 [restartedMain] INFO - Root WebApplicationContext: initialization completed in 1303 ms -org.springframework.web.context.ContextLoader
+2020/06/06-09:39:27 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:39:27 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:39:27 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:39:27 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:39:28 [restartedMain] INFO - Initializing ExecutorService 'applicationTaskExecutor' -org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor
+2020/06/06-09:39:28 [restartedMain] INFO - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**]. -com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration
+2020/06/06-09:39:28 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:39:28 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:39:28 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:39:28 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:39:28 [restartedMain] INFO - 
+
+Using generated security password: 7127c870-e0f0-459a-bde9-0aefc2a2fc90
+ -org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+2020/06/06-09:39:28 [restartedMain] INFO - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24e44bea, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cf59f29, org.springframework.security.web.header.HeaderWriterFilter@3287f15e, org.springframework.security.web.csrf.CsrfFilter@3868feac, org.springframework.security.web.authentication.logout.LogoutFilter@2c4a3846, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c3e32c3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28dcda1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3d789227, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@121b3ff1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52af7053, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78c41706, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15d5adca, org.springframework.security.web.session.SessionManagementFilter@21d74f28, org.springframework.security.web.access.ExceptionTranslationFilter@78cdf60e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@286fc1c] -org.springframework.security.web.DefaultSecurityFilterChain
+2020/06/06-09:39:28 [restartedMain] WARN - Unable to start LiveReload server -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:39:28 [restartedMain] INFO - Tomcat started on port(s): 9000 (http) with context path '' -org.springframework.boot.web.embedded.tomcat.TomcatWebServer
+2020/06/06-09:39:28 [restartedMain] INFO - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.244","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":9000,"scheduled":false,"serviceName":"DEFAULT_GROUP@@app","stopped":false,"weight":1.0} to beat map. -com.alibaba.nacos.client.naming
+2020/06/06-09:39:29 [restartedMain] INFO - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@app with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.244","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9000,"weight":1.0} -com.alibaba.nacos.client.naming
+2020/06/06-09:39:29 [restartedMain] INFO - nacos registry, DEFAULT_GROUP app 192.168.31.244:9000 register finished -com.alibaba.cloud.nacos.registry.NacosServiceRegistry
+2020/06/06-09:39:29 [restartedMain] INFO - Started AppApplication in 4.057 seconds (JVM running for 4.756) -com.songling.app.AppApplication
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] nacos-config-example.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=nacos-config-example.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] app+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=app, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] app.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:29 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=app.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:39:29 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:45 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:39:58 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:40:14 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:40:28 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:40:44 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:40:58 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:41:13 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:41:27 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:41:43 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:41:57 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:42:12 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:42:26 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:42:42 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:42:56 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:43:11 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:43:25 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:43:41 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:43:55 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:44:11 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:44:24 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:44:54 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:13 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:45:13 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:45:13 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:45:13 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:45:13 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-rbac.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rbac,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:45:13 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.rbac.RbacApplication
+2020/06/06-09:45:14 [restartedMain] INFO - BeanFactory id=5c8dbf4b-5dd9-3c25-b10a-02dae2c2a560 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:45:14 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:45:14 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:45:14 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:14 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:14 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:14 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:14 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:45:14 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:14 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:14 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:14 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:45:14 [restartedMain] INFO - Started RbacApplication in 2.197 seconds (JVM running for 2.777) -com.songling.rbac.RbacApplication
+2020/06/06-09:45:14 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:14 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:45:14 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:14 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:45:14 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:23 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:42 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:45:42 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:45:42 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:45:42 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:45:42 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-rbac.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rbac,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:45:42 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.rbac.RbacApplication
+2020/06/06-09:45:42 [restartedMain] INFO - BeanFactory id=5c8dbf4b-5dd9-3c25-b10a-02dae2c2a560 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:45:42 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:45:42 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:45:42 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:42 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:42 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:42 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:45:43 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:45:43 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:43 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:43 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:45:43 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:45:43 [restartedMain] INFO - Started RbacApplication in 2.186 seconds (JVM running for 2.766) -com.songling.rbac.RbacApplication
+2020/06/06-09:45:43 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:43 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:45:43 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:43 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:45:43 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:45:53 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:46:04 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:46:04 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:46:04 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:46:04 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[rbac.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:46:04 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-rbac.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-rbac,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:46:04 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.rbac.RbacApplication
+2020/06/06-09:46:04 [restartedMain] INFO - BeanFactory id=5c8dbf4b-5dd9-3c25-b10a-02dae2c2a560 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:46:05 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:46:05 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:46:05 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:46:05 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:46:05 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:46:05 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:46:05 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:46:05 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:46:05 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:46:05 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:46:05 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:46:05 [restartedMain] INFO - Started RbacApplication in 2.185 seconds (JVM running for 2.8) -com.songling.rbac.RbacApplication
+2020/06/06-09:46:05 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:46:05 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:46:05 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] rbac+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:46:05 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=rbac, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:46:05 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:46:35 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:47:35 [restartedMain] INFO - LOCAL_SNAPSHOT_PATH:C:\Users\songlinga\nacos\config -com.alibaba.nacos.client.config.impl.LocalConfigInfoProcessor
+2020/06/06-09:47:35 [restartedMain] INFO - limitTime:5.0 -com.alibaba.nacos.client.config.impl.Limiter
+2020/06/06-09:47:35 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[app] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:47:35 [restartedMain] WARN - Ignore the empty nacos configuration and get it based on dataId[app.properties] & group[DEFAULT_GROUP] -com.alibaba.cloud.nacos.client.NacosPropertySourceBuilder
+2020/06/06-09:47:35 [restartedMain] INFO - Located property source: [BootstrapPropertySource {name='bootstrapProperties-app.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-app,DEFAULT_GROUP'}] -org.springframework.cloud.bootstrap.config.PropertySourceBootstrapConfiguration
+2020/06/06-09:47:35 [restartedMain] INFO - No active profile set, falling back to default profiles: default -com.songling.app.AppApplication
+2020/06/06-09:47:36 [restartedMain] INFO - BeanFactory id=b4ded746-d53a-3240-ba3d-b50f2d1af2b5 -org.springframework.cloud.context.scope.GenericScope
+2020/06/06-09:47:36 [restartedMain] INFO - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:47:36 [restartedMain] INFO - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) -org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+2020/06/06-09:47:36 [restartedMain] INFO - Tomcat initialized with port(s): 9000 (http) -org.springframework.boot.web.embedded.tomcat.TomcatWebServer
+2020/06/06-09:47:36 [restartedMain] INFO - Starting service [Tomcat] -org.apache.catalina.core.StandardService
+2020/06/06-09:47:36 [restartedMain] INFO - Starting Servlet engine: [Apache Tomcat/9.0.35] -org.apache.catalina.core.StandardEngine
+2020/06/06-09:47:36 [restartedMain] INFO - Initializing Spring embedded WebApplicationContext -org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]
+2020/06/06-09:47:36 [restartedMain] INFO - Root WebApplicationContext: initialization completed in 1119 ms -org.springframework.web.context.ContextLoader
+2020/06/06-09:47:37 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:47:37 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:47:37 [restartedMain] WARN - No URLs will be polled as dynamic configuration sources. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:47:37 [restartedMain] INFO - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath. -com.netflix.config.sources.URLConfigurationSource
+2020/06/06-09:47:37 [restartedMain] INFO - Initializing ExecutorService 'applicationTaskExecutor' -org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor
+2020/06/06-09:47:37 [restartedMain] INFO - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**]. -com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration
+2020/06/06-09:47:37 [restartedMain] INFO - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler' -org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler
+2020/06/06-09:47:37 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:47:37 [restartedMain] INFO - initializer namespace from System Environment :null -com.alibaba.nacos.client.naming
+2020/06/06-09:47:37 [restartedMain] INFO - initializer namespace from System Property :null -com.alibaba.nacos.client.naming
+2020/06/06-09:47:37 [restartedMain] INFO - 
+
+Using generated security password: 80ccd789-83e4-4c1c-9f83-9456fa18b5b4
+ -org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration
+2020/06/06-09:47:37 [restartedMain] INFO - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@121b3ff1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5dd21f29, org.springframework.security.web.header.HeaderWriterFilter@61a21de0, org.springframework.security.web.csrf.CsrfFilter@166c126c, org.springframework.security.web.authentication.logout.LogoutFilter@3e8a06a1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a0366c7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@436ed9b8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1dee7426, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@343ede0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@25ed0c86, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c650cf9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3240c360, org.springframework.security.web.session.SessionManagementFilter@7d424f12, org.springframework.security.web.access.ExceptionTranslationFilter@755e29c0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61de49c3] -org.springframework.security.web.DefaultSecurityFilterChain
+2020/06/06-09:47:37 [restartedMain] INFO - LiveReload server is running on port 35729 -org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer
+2020/06/06-09:47:37 [restartedMain] INFO - Tomcat started on port(s): 9000 (http) with context path '' -org.springframework.boot.web.embedded.tomcat.TomcatWebServer
+2020/06/06-09:47:37 [restartedMain] INFO - [BEAT] adding beat: {"cluster":"DEFAULT","ip":"192.168.31.244","metadata":{"preserved.register.source":"SPRING_CLOUD"},"period":5000,"port":9000,"scheduled":false,"serviceName":"DEFAULT_GROUP@@app","stopped":false,"weight":1.0} to beat map. -com.alibaba.nacos.client.naming
+2020/06/06-09:47:38 [restartedMain] INFO - [REGISTER-SERVICE] public registering service DEFAULT_GROUP@@app with instance: {"clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ip":"192.168.31.244","ipDeleteTimeout":30000,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9000,"weight":1.0} -com.alibaba.nacos.client.naming
+2020/06/06-09:47:38 [restartedMain] INFO - nacos registry, DEFAULT_GROUP app 192.168.31.244:9000 register finished -com.alibaba.cloud.nacos.registry.NacosServiceRegistry
+2020/06/06-09:47:38 [restartedMain] INFO - Started AppApplication in 3.403 seconds (JVM running for 4.021) -com.songling.app.AppApplication
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] nacos-config-example.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=nacos-config-example.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] app+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=app, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [subscribe] app.properties+DEFAULT_GROUP -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:47:38 [restartedMain] INFO - [fixed-localhost_8848] [add-listener] ok, tenant=, dataId=app.properties, group=DEFAULT_GROUP, cnt=1 -com.alibaba.nacos.client.config.impl.CacheData
+2020/06/06-09:47:38 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:48:07 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:48:37 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:49:06 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:49:36 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:50:05 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:50:35 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:51:04 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:51:34 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:52:04 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:52:33 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:53:03 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker
+2020/06/06-09:53:32 [com.alibaba.nacos.client.Worker.longPolling.fixed-localhost_8848] INFO - get changedGroupKeys:[] -com.alibaba.nacos.client.config.impl.ClientWorker

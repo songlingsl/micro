@@ -1,0 +1,90 @@
+server:
+  port: 9001
+
+feign:
+  sentinel:
+    enabled: true
+spring:
+  application:
+    name: app
+  cloud:
+    sentinel:
+      eager: true
+      transport:
+        dashboard: localhost:8989
+    alibaba:
+      seata:
+        tx-service-group: songlingseata
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://healthy_database:3306/seata1?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: slroot
+    hikari:        #spring自带连接池
+      pool-name: Retail_HikariCP
+      minimum-idle: 5 #最小空闲连接数量
+      idle-timeout: 180000 #空闲连接存活最大时间，默认600000（10分钟）
+      maximum-pool-size: 10 #连接池最大连接数，默认是10
+      auto-commit: true  #此属性控制从池返回的连接的默认自动提交行为,默认值：true
+      max-lifetime: 1800000 #此属性控制池中连接的最长生命周期，值0表示无限生命周期，默认1800000即30分钟
+      connection-timeout: 30000 #数据库连接超时时间,默认30秒，即30000
+      connection-test-query: SELECT 1
+
+#  redis:
+#    host: localhost
+#    lettuce:
+#          pool:
+#            max-active: 16   #默认是不使用连接池的，只有配置 redis.lettuce.pool下的属性的时候才可以使用到redis连接池
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: assign_id #自3.3.0开始,entity的id默认使用雪花算法+UUID
+#  降级是后边服务不可用，然后调用回调实现类；熔断是后边服务报错，按一定错误规则，回调实现类，
+#可以配置时间窗口，在一定时间内熔断
+#分布式事务互联网不用，耗性能；金融，支付场景用
+#datasource:
+#        ds1:
+#          file:
+#            data-type: json
+#            file: 'classpath: flowrule.json'  #单独配置限流  用serverdashboard
+#            rule-type: flow
+#        ds2:
+#          file:
+#            data-type: json
+#            file: 'classpath: degraderule.json'#单独配置降级
+#            rule-type: degrade
+alibaba:
+  cloud:
+    nacos:
+      config:
+        contextPath: /nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        username: nacos
+      discovery:
+        password: nacos
+        server-addr: localhost:8848
+        username: nacos
+
+seata:
+  enabled: true
+  service:
+    disable-global-transaction: false
+    grouplist:
+      default: 127.0.0.1:8091
+    vgroup-mapping:
+      songlingseata: default
+
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

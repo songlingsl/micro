@@ -1,0 +1,52 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    sentinel:
+      eager: true
+      transport:
+        dashboard: localhost:8989 #通过sentinel的dashboard分别对访问限流
+    gateway:
+      routes:
+        - id: app-route
+          uri: lb://app
+          predicates:
+            - Path=/app/**
+          filters:
+            - StripPrefix=1  #去除的前缀的个数，访问http://网关地址/app/**,变成http://app地址/app/**，
+            #去掉一个前缀后http://app地址/**
+        - id: rbac-route
+          uri: lb://rbac
+          predicates:
+            - Path=/rbac/**
+          filters:
+            - StripPrefix=1
+        - id: uaa-route
+          uri: lb://uaa
+          predicates:
+            - Path=/uaa/**
+          filters:
+            - StripPrefix=1
+
+
+alibaba:
+  cloud:
+    nacos:
+      config:
+        contextPath: /nacos
+        password: nacos
+        server-addr: 127.0.0.1:8848
+        username: nacos
+      discovery:
+        password: nacos
+        server-addr: localhost:8848
+        username: nacos
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+
